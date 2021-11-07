@@ -43,7 +43,8 @@
 
 	function editUser($user){
 		$con = getConnection();
-		$sql = "update users set username='{$user['username']}', ";
+		$sql = "update users set username='{$user['username']}', password='{$user['password']}', email='{$user['email']}' where id={$user['id']}";
+		
 		if(mysqli_query($con, $sql)){
 			return true;
 		}else{
