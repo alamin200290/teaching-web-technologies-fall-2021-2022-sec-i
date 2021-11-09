@@ -1,0 +1,20 @@
+
+#d1 {
+	position: relative;
+	background: green;
+	width: 350px;
+	height: 220px;
+	border: 2px solid #000;
+}
+
+#d2 {
+	position: absolute;
+	left: 120px;
+	top: 60px;
+	background: red;
+	width: 100px;
+	height: 100px;
+	border: 2px solid #000;
+	border-radius: 100px;
+	cursor: pointer;
+}
